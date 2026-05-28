@@ -1,4 +1,4 @@
-# Практические задания 7-9 — Auth + Products API
+# Практические задания 7-9 - Auth + Products API
 
 ## Установка и запуск
 
@@ -44,8 +44,8 @@ Swagger UI доступен по адресу `http://localhost:3000/api-docs`
 Authorization: Bearer <accessToken>
 ```
 
-- **accessToken** — действителен **15 минут**
-- **refreshToken** — действителен **7 дней**
+- **accessToken** - действителен **15 минут**
+- **refreshToken** - действителен **7 дней**
 
 Когда access-токен истекает, отправь refresh-токен на `/api/auth/refresh` — сервер выдаст новую пару токенов. Старый refresh-токен при этом становится недействительным (ротация).
 
